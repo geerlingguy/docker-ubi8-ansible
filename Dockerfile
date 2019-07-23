@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/ubi8/ubi:latest
 LABEL maintainer="Jeff Geerling"
 ENV container=docker
 
-ENV pip_packages "ansible"
+ENV pip_packages "ansible yamllint ansible-lint flake8 testinfra molecule"
 
 # Silence annoying subscription messages.
 RUN echo "enabled=0" >> /etc/yum/pluginconf.d/subscription-manager.conf
@@ -27,6 +27,8 @@ RUN yum makecache --timer \
       which \
       hostname \
       python3 \
+      python3-devel \
+      gcc \
  && yum clean all
 
 # Install Ansible via Pip.
