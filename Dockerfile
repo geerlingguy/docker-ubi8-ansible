@@ -25,6 +25,7 @@ RUN yum makecache --timer \
  && yum -y install \
       sudo \
       which \
+      hostname \
       python3 \
  && yum clean all
 
