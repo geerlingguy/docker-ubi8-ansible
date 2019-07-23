@@ -1,6 +1,6 @@
 # Universal Base Image 8 Ansible Test Image
 
-[![Build Status](https://travis-ci.org/geerlingguy/docker-ubi8-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-ubi8-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/geerlingguy/docker-ubi8-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/geerlingguy/docker-ubi8-ansible/)
+[![Build Status](https://travis-ci.com/geerlingguy/docker-ubi8-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-ubi8-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/geerlingguy/docker-ubi8-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/geerlingguy/docker-ubi8-ansible/)
 
 UBI 8 (base of Red Hat Enterprise Linux 8) Docker container for Ansible playbook and role testing.
 
